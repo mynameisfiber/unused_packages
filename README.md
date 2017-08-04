@@ -5,7 +5,7 @@
 
 This program will find all packages installed on the system and see when the
 most recent access of a file in that package was. All packages are then sorted
-and returned to you so you can finally get rid of all that old cruff you
+and returned to you so you can finally get rid of all that old junk you
 installed
 
 
