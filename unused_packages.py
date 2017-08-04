@@ -1,9 +1,14 @@
 import dpkg
 from utils import picklecache
 import os
-from tqdm import tqdm
 from datetime import datetime
 from operator import itemgetter
+
+try:
+    from tqdm import tqdm
+except ImportError:
+    def tqdm(x, *args, **kwargs):
+        return x
 
 
 def package_recent_atime(package):
