@@ -1,5 +1,8 @@
-import dpkg
-from utils import picklecache
+#!/usr/bin/env python3
+
+from lib import dpkg
+from lib.utils import picklecache
+
 import os
 from datetime import datetime
 from operator import itemgetter
